@@ -12,16 +12,12 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup />
-  <ItemGroup>
-    <PackageReference Include="EntityFramework" Version="6.4.4" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Reference Include="System.Data" />
     <Reference Include="DBLayer">
-      <HintPath>C:\Program Files (x86)\Ecosmart\ExportToCsvFileSetup\DBLayer.dll</HintPath>
+      <HintPath>..\..\..\..\Program Files (x86)\Ecosmart\ExportToCsvFileSetup\DBLayer.dll</HintPath>
     </Reference>
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Security" />
   </ItemGroup>
 </Project>

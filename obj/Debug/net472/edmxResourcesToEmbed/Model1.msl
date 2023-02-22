@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JCIDBModelStoreContainer" CdmEntityContainer="JCIDBEntities">
+    <EntitySetMapping Name="JCIDatas">
+      <EntityTypeMapping TypeName="JCIDBModel.JCIData">
+        <MappingFragment StoreEntitySet="JCIData">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MeterName" ColumnName="MeterName" />
+          <ScalarProperty Name="BusinessPartner" ColumnName="BusinessPartner" />
+          <ScalarProperty Name="Contract" ColumnName="Contract" />
+          <ScalarProperty Name="BusinessPartnerEntity" ColumnName="BusinessPartnerEntity" />
+          <ScalarProperty Name="postingPeroid" ColumnName="postingPeroid" />
+          <ScalarProperty Name="FloorName" ColumnName="FloorName" />
+          <ScalarProperty Name="MDB" ColumnName="MDB" />
+          <ScalarProperty Name="DewaPremiseNo" ColumnName="DewaPremiseNo" />
+          <ScalarProperty Name="DewaContractAccountNoMain" ColumnName="DewaContractAccountNoMain" />
+          <ScalarProperty Name="DewaMeteNoMain" ColumnName="DewaMeteNoMain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="JCIDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="JCIData">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="MeterName" Type="varchar(max)" />
+    <Property Name="BusinessPartner" Type="varchar(max)" />
+    <Property Name="Contract" Type="varchar(max)" />
+    <Property Name="BusinessPartnerEntity" Type="varchar(max)" />
+    <Property Name="postingPeroid" Type="int" />
+    <Property Name="FloorName" Type="varchar(max)" />
+    <Property Name="MDB" Type="varchar(max)" />
+    <Property Name="DewaPremiseNo" Type="varchar(max)" />
+    <Property Name="DewaContractAccountNoMain" Type="varchar(max)" />
+    <Property Name="DewaMeteNoMain" Type="varchar(max)" />
+  </EntityType>
+  <Function Name="SP_GETBILLDETAILS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Query" Type="int" Mode="In" />
+    <Parameter Name="STARTDATE" Type="datetime" Mode="In" />
+    <Parameter Name="ENDDATE" Type="datetime" Mode="In" />
+  </Function>
+  <EntityContainer Name="JCIDBModelStoreContainer">
+    <EntitySet Name="JCIData" EntityType="Self.JCIData" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
