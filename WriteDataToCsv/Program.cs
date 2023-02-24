@@ -1,3 +1,4 @@
+using JohnsonControlHelper;
 using System;
 using System.Windows.Forms;
 
@@ -10,6 +11,6 @@ internal static class Program
 	{
 		Application.EnableVisualStyles();
 		Application.SetCompatibleTextRenderingDefault(defaultValue: false);
-		Application.Run(new frmGenerate());
+		Application.Run(new formMain());
 	}
 }

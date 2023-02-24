@@ -48,7 +48,7 @@ public class GenerateData
 			string ConStr = setConnectionString(dBConfig);
 			using (SqlConnection con = new SqlConnection(ConStr))
 			{
-				using SqlCommand cmd = new SqlCommand("SP_GETBILLDETAILS", con);
+				using SqlCommand cmd = new SqlCommand("SP_GETBILLDETAILS_NEW1", con); //calling store procedure.
 				cmd.Parameters.Add("@Query", SqlDbType.Int).Value = 1;
 				cmd.Parameters.Add("@StartDate", SqlDbType.DateTime).Value = startDate.Date.AddHours(0.0).AddMinutes(0.0).AddSeconds(0.0);
 				cmd.Parameters.Add("@EndDate", SqlDbType.DateTime).Value = endDate.Date.AddHours(23.0).AddMinutes(59.0).AddSeconds(59.0);

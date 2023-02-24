@@ -12,12 +12,11 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup />
-  <ItemGroup />
   <ItemGroup>
-    <Reference Include="System.Data" />
     <Reference Include="DBLayer">
-      <HintPath>..\..\..\..\Program Files (x86)\Ecosmart\ExportToCsvFileSetup\DBLayer.dll</HintPath>
+      <HintPath>bin\Debug\net472\DBLayer.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data" />
     <Reference Include="System.Configuration" />
   </ItemGroup>
 </Project>

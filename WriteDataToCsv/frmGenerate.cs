@@ -125,6 +125,7 @@ public class frmGenerate : Form
 		}
 		if (GD.IsConnected(dBConfig))
 		{
+			//calls GetBillingDetails function
 			DataTable dt = await GD.GetBillingDetails(CustomerID, startDate, endDate, macgridDatabase, dBConfig);
 			string fileName = fileNameFormat + startDate.ToString("dd-MM-yyyy") + " to " + endDate.ToString("dd-MM-yyyy") + ".csv";
 			string file = folderPath + fileName;
@@ -165,6 +166,7 @@ public class frmGenerate : Form
 	{
 		try
 		{
+			//call function to generate excel
 			WriteDataFromDB(dtpStartDate.Value, dtpEndDate.Value);
 		}
 		catch (Exception ex)

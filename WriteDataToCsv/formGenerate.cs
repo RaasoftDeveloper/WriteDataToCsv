@@ -149,9 +149,10 @@ public class formGenerate : Form
                 }
                 MessageBox.Show("File generated successfully in the path:" + file);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Please close the generated file before generation");
+                MessageBox.Show(ex.Message);
+                //MessageBox.Show("Please close the generated file before generation");
             }
         }
         else

@@ -23,3 +23,9 @@ D:\Johnson Control Ecosmart Extension App\WriterToCSV\obj\Debug\net472\WriteData
 D:\Johnson Control Ecosmart Extension App\WriterToCSV\obj\Debug\net472\WriteDataToCsv.csproj.GenerateResource.cache
 D:\Johnson Control Ecosmart Extension App\WriterToCSV\obj\Debug\net472\WriteDataToCsv.GeneratedMSBuildEditorConfig.editorconfig
 D:\Johnson Control Ecosmart Extension App\WriterToCSV\obj\Debug\net472\WriteDataToCsv.csproj.CoreCompileInputs.cache
+D:\Johnson Control Ecosmart Extension App\WriterToCSV\bin\Debug\net472\WriteDataToCsv.exe.config
+D:\Johnson Control Ecosmart Extension App\WriterToCSV\bin\Debug\net472\WriteDataToCsv.exe
+D:\Johnson Control Ecosmart Extension App\WriterToCSV\bin\Debug\net472\WriteDataToCsv.pdb
+D:\Johnson Control Ecosmart Extension App\WriterToCSV\obj\Debug\net472\WriteDataToCsv.csproj.CopyComplete
+D:\Johnson Control Ecosmart Extension App\WriterToCSV\obj\Debug\net472\WriteDataToCsv.exe
+D:\Johnson Control Ecosmart Extension App\WriterToCSV\obj\Debug\net472\WriteDataToCsv.pdb

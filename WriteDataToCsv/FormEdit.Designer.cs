@@ -39,7 +39,7 @@
             this.txt_business_partner_name = new System.Windows.Forms.TextBox();
             this.txt_building = new System.Windows.Forms.TextBox();
             this.txt_contract = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.txt_retail = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -53,6 +53,24 @@
             this.label13 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btn_search = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txt_remark = new System.Windows.Forms.TextBox();
+            this.txt_retail_type = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txt_EMU = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txt_CTCM = new System.Windows.Forms.TextBox();
+            this.txt_Exception = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txt_plot = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txt_Zone = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txt_profit = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txt_area = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -144,14 +162,14 @@
             this.txt_contract.Size = new System.Drawing.Size(157, 20);
             this.txt_contract.TabIndex = 13;
             // 
-            // label8
+            // txt_retail
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(422, 159);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 13);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "Utility Type";
+            this.txt_retail.AutoSize = true;
+            this.txt_retail.Location = new System.Drawing.Point(422, 159);
+            this.txt_retail.Name = "txt_retail";
+            this.txt_retail.Size = new System.Drawing.Size(59, 13);
+            this.txt_retail.TabIndex = 15;
+            this.txt_retail.Text = "Utility Type";
             // 
             // label9
             // 
@@ -226,7 +244,7 @@
             // 
             // btn_update
             // 
-            this.btn_update.Location = new System.Drawing.Point(310, 356);
+            this.btn_update.Location = new System.Drawing.Point(331, 554);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(143, 30);
             this.btn_update.TabIndex = 25;
@@ -262,11 +280,173 @@
             this.btn_search.UseVisualStyleBackColor = true;
             this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(425, 343);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(49, 13);
+            this.label8.TabIndex = 31;
+            this.label8.Text = "Remarks";
+            // 
+            // txt_remark
+            // 
+            this.txt_remark.Location = new System.Drawing.Point(521, 343);
+            this.txt_remark.Name = "txt_remark";
+            this.txt_remark.Size = new System.Drawing.Size(175, 20);
+            this.txt_remark.TabIndex = 32;
+            // 
+            // txt_retail_type
+            // 
+            this.txt_retail_type.Location = new System.Drawing.Point(160, 335);
+            this.txt_retail_type.Name = "txt_retail_type";
+            this.txt_retail_type.Size = new System.Drawing.Size(157, 20);
+            this.txt_retail_type.TabIndex = 33;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 346);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.TabIndex = 34;
+            this.label2.Text = "Retail Type";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(14, 378);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(101, 13);
+            this.label14.TabIndex = 35;
+            this.label14.Text = "EMU Meter Number";
+            // 
+            // txt_EMU
+            // 
+            this.txt_EMU.Location = new System.Drawing.Point(160, 370);
+            this.txt_EMU.Name = "txt_EMU";
+            this.txt_EMU.Size = new System.Drawing.Size(157, 20);
+            this.txt_EMU.TabIndex = 36;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(422, 377);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(83, 13);
+            this.label15.TabIndex = 37;
+            this.label15.Text = "CT/CM Address";
+            // 
+            // txt_CTCM
+            // 
+            this.txt_CTCM.Location = new System.Drawing.Point(521, 377);
+            this.txt_CTCM.Name = "txt_CTCM";
+            this.txt_CTCM.Size = new System.Drawing.Size(172, 20);
+            this.txt_CTCM.TabIndex = 38;
+            // 
+            // txt_Exception
+            // 
+            this.txt_Exception.Location = new System.Drawing.Point(160, 415);
+            this.txt_Exception.Name = "txt_Exception";
+            this.txt_Exception.Size = new System.Drawing.Size(157, 20);
+            this.txt_Exception.TabIndex = 39;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(17, 421);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(54, 13);
+            this.label16.TabIndex = 40;
+            this.label16.Text = "Exception";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(425, 420);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(25, 13);
+            this.label17.TabIndex = 41;
+            this.label17.Text = "Plot";
+            // 
+            // txt_plot
+            // 
+            this.txt_plot.Location = new System.Drawing.Point(521, 420);
+            this.txt_plot.Name = "txt_plot";
+            this.txt_plot.Size = new System.Drawing.Size(175, 20);
+            this.txt_plot.TabIndex = 42;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(20, 460);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(32, 13);
+            this.label18.TabIndex = 43;
+            this.label18.Text = "Zone";
+            // 
+            // txt_Zone
+            // 
+            this.txt_Zone.Location = new System.Drawing.Point(160, 460);
+            this.txt_Zone.Name = "txt_Zone";
+            this.txt_Zone.Size = new System.Drawing.Size(157, 20);
+            this.txt_Zone.TabIndex = 44;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(428, 459);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(65, 13);
+            this.label19.TabIndex = 45;
+            this.label19.Text = "Profit Center";
+            // 
+            // txt_profit
+            // 
+            this.txt_profit.Location = new System.Drawing.Point(521, 459);
+            this.txt_profit.Name = "txt_profit";
+            this.txt_profit.Size = new System.Drawing.Size(172, 20);
+            this.txt_profit.TabIndex = 46;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(23, 499);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(44, 13);
+            this.label20.TabIndex = 47;
+            this.label20.Text = "Area (ft)";
+            // 
+            // txt_area
+            // 
+            this.txt_area.Location = new System.Drawing.Point(160, 499);
+            this.txt_area.Name = "txt_area";
+            this.txt_area.Size = new System.Drawing.Size(157, 20);
+            this.txt_area.TabIndex = 48;
+            // 
             // formEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(705, 390);
+            this.ClientSize = new System.Drawing.Size(705, 596);
+            this.Controls.Add(this.txt_area);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.txt_profit);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.txt_Zone);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.txt_plot);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.txt_Exception);
+            this.Controls.Add(this.txt_CTCM);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.txt_EMU);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txt_retail_type);
+            this.Controls.Add(this.txt_remark);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.btn_search);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label13);
@@ -280,7 +460,7 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txt_retail);
             this.Controls.Add(this.txt_contract);
             this.Controls.Add(this.txt_building);
             this.Controls.Add(this.txt_business_partner_name);
@@ -313,7 +493,7 @@
         private System.Windows.Forms.TextBox txt_business_partner_name;
         private System.Windows.Forms.TextBox txt_building;
         private System.Windows.Forms.TextBox txt_contract;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label txt_retail;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -327,5 +507,23 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btn_search;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txt_remark;
+        private System.Windows.Forms.TextBox txt_retail_type;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txt_EMU;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox txt_CTCM;
+        private System.Windows.Forms.TextBox txt_Exception;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txt_plot;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox txt_Zone;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txt_profit;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox txt_area;
     }
 }
